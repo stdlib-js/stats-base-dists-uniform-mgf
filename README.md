@@ -76,7 +76,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.mgf;
+})();
 })();
 </script>
 ```
@@ -160,6 +162,7 @@ y = mymgf( 1.1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-uniform-mgf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var a;
 var b;
@@ -175,6 +178,7 @@ for ( i = 0; i < 10; i++ ) {
     console.log( 't: %d, a: %d, b: %d, M_X(t;a,b): %d', t.toFixed( 4 ), a.toFixed( 4 ), b.toFixed( 4 ), v.toFixed( 4 ) );
 }
 
+})();
 })();
 </script>
 </body>
