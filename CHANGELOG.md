@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2025-02-12)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#4991](https://github.com/stdlib-js/stdlib/issues/4991)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,7 @@
 
 <details>
 
+-   [`273d9f1`](https://github.com/stdlib-js/stdlib/commit/273d9f168ed5293a563e6748219f79a033e7ca8a) - **bench:** refactor random number generation in benchmarks for `stats/base/dists/uniform` [(#5176)](https://github.com/stdlib-js/stdlib/pull/5176) _(by Gaurav, Philipp Burckhardt, stdlib-bot)_
 -   [`31fd427`](https://github.com/stdlib-js/stdlib/commit/31fd42744ec5d7073041f97c6f72350b8005c0fc) - **style:** remove unwanted empty lines _(by Philipp Burckhardt)_
 
 </details>
@@ -24,8 +37,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Gaurav
 -   Philipp Burckhardt
 
 </section>
