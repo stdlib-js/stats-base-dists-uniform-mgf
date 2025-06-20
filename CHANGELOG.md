@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-26)
+## Unreleased (2025-06-20)
 
 <section class="features">
 
@@ -15,6 +15,16 @@
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`d440f55`](https://github.com/stdlib-js/stdlib/commit/d440f556cf0ede9dd6edec070cb8fd0e1e60874d) - remove unused includes
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="issues">
 
@@ -34,6 +44,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`d440f55`](https://github.com/stdlib-js/stdlib/commit/d440f556cf0ede9dd6edec070cb8fd0e1e60874d) - **fix:** remove unused includes _(by Philipp Burckhardt)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`fb2046c`](https://github.com/stdlib-js/stdlib/commit/fb2046c940281d6d0fed98d979d17caee0bd3107) - **test:** fix missing argument _(by Athan Reines)_
 -   [`bc90eba`](https://github.com/stdlib-js/stdlib/commit/bc90ebaf8e8318423f84cf652e1003836e898ab4) - **feat:** add C implementation for `stats/base/dists/uniform/mgf` [(#4142)](https://github.com/stdlib-js/stdlib/pull/4142) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
